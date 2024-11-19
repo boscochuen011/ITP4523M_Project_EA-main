@@ -1,0 +1,46 @@
+#updateInfoForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#updateInfoForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#updateInfoForm input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 20px;
+    top: 53%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.submit {
+    background-color: #1C1F25;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #474747;
+}
